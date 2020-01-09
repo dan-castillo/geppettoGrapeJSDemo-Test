@@ -46,8 +46,8 @@ export class GrapejsComponent implements OnInit {
     this.blockManager.add('the-row-block', {
       label: '2 Columns',
       content: '<div class="row" data-gjs-droppable=".row-cell" data-gjs-custom-name="Row">' +
-          '<div class="row-cell" data-gjs-draggable=".row">ass234567897654321356</div>' +
-          '<div class="row-cell" data-gjs-draggable=".row">sasas</div>' +
+          '<div class="row-cell" data-gjs-draggable=".row">Div 1</div>' +
+          '<div class="row-cell" data-gjs-draggable=".row">Div 2</div>' +
         '</div>',
     });
   }
