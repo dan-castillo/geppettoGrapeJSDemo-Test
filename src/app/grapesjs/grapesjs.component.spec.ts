@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GrapejsComponent } from './grapejs.component';
+import { GrapesjsComponent } from './grapesjs.component';
 
-describe('GrapejsComponent', () => {
-  let component: GrapejsComponent;
-  let fixture: ComponentFixture<GrapejsComponent>;
+describe('GrapesjsComponent', () => {
+  let component: GrapesjsComponent;
+  let fixture: ComponentFixture<GrapesjsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GrapejsComponent ]
+      declarations: [ GrapesjsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GrapejsComponent);
+    fixture = TestBed.createComponent(GrapesjsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

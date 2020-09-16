@@ -3,14 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GrapejsComponent } from './grapejs/grapejs.component';
 import { TutorialComponent } from './tutorial/tutorial.component';
+import { GrapesjsComponent } from './grapesjs/grapesjs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GrapejsComponent,
-    TutorialComponent
+    TutorialComponent,
+    GrapesjsComponent
   ],
   imports: [
     BrowserModule,
